@@ -48,6 +48,7 @@ namespace RevitAPI61
 
             var points = new List<Point>();
 
+
             var startPoint = new XYZ(Points[0].X, Points[0].Y, Points[0].Z + Offset);
             var endPoint = new XYZ(Points[1].X, Points[1].Y, Points[1].Z + Offset);
 
